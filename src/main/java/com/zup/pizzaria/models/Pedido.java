@@ -17,7 +17,6 @@ public class Pedido {
         this.clienteId = clienteId;
         this.descricao = descricao;
     }
-
     public Long getId() {
         return id;
     }
@@ -40,5 +39,8 @@ public class Pedido {
 
     public void setClienteId(Long clienteId) {
         this.clienteId = clienteId;
+    }
+
+    public Pedido() {
     }
 }
