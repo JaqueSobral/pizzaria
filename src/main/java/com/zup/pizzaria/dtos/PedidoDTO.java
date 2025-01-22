@@ -11,6 +11,9 @@ public class PedidoDTO {
         this.descricaoPedido = descricaoPedido;
     }
 
+    public PedidoDTO(String descricao, Long clienteId, String emailCliente) {
+    }
+
     public String getNomeCliente() {
         return nomeCliente;
     }

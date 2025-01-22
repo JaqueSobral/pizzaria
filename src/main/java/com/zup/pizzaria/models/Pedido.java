@@ -43,4 +43,8 @@ public class Pedido {
 
     public Pedido() {
     }
+
+    public Pedido orElseThrow(Object clienteNãoEncontrado) {
+        return null;
+    }
 }

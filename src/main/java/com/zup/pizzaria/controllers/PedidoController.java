@@ -13,9 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/pedidos")
 public class PedidoController {
     private final PedidoService pedidoService;
-
-    public PedidoController(PedidoService pedidoService) {
-        this.pedidoService = pedidoService;
+    public PedidoController(PedidoService pedidoService) { this.pedidoService = pedidoService;
     }
 
     @PostMapping
